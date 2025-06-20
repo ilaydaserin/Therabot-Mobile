@@ -1,0 +1,545 @@
+{
+  "test": "General Knowledge Test",
+  "version": "32-question (Multiple Correct Answers)",
+  "description": "This is an interactive general knowledge test consisting of 32 questions. Each question presents 10 answer options, out of which 5 are correct. Your task is to select all the correct answers you know, without guessing. Your score for each question will be calculated as the number of correct answers selected minus the number of incorrect answers selected. This test is designed to assess your general knowledge across various domains.",
+  "question_type": "multiple_correct_answers",
+  "selection_info": "Select as many as you know, 5 are correct out of 10 options.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Who of these were famous poets?",
+      "options": [
+        {"text": "Robert Frost", "is_correct": true},
+        {"text": "Emily Dickinson", "is_correct": true},
+        {"text": "Maya Angelou", "is_correct": true},
+        {"text": "Sylvia Plath", "is_correct": true},
+        {"text": "Elizabeth Cady Stanton", "is_correct": false},
+        {"text": "Langston Hughes", "is_correct": true},
+        {"text": "Marcel Cordoba", "is_correct": false},
+        {"text": "Abigail Adams", "is_correct": false},
+        {"text": "Trent Moseson", "is_correct": false},
+        {"text": "Sun Tzu", "is_correct": false}
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Which of these are Broadway musicals?",
+      "options": [
+        {"text": "The Lion King", "is_correct": true},
+        {"text": "Cats", "is_correct": true},
+        {"text": "Wicked", "is_correct": true},
+        {"text": "Hamilton", "is_correct": true},
+        {"text": "Casablanca", "is_correct": false},
+        {"text": "Kinky Boots", "is_correct": true},
+        {"text": "Blue Swede Shoes", "is_correct": false},
+        {"text": "The Tin Man", "is_correct": false},
+        {"text": "Amandine", "is_correct": false},
+        {"text": "Common Projects", "is_correct": false}
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Which of these are religious holidays?",
+      "options": [
+        {"text": "Christmas", "is_correct": true},
+        {"text": "Kwanzaa", "is_correct": true},
+        {"text": "Yom Kippur", "is_correct": true},
+        {"text": "Ramadan", "is_correct": true},
+        {"text": "Mirch Masala", "is_correct": false},
+        {"text": "Hanukkah", "is_correct": true},
+        {"text": "Amadar", "is_correct": false},
+        {"text": "Reconciliation", "is_correct": false},
+        {"text": "Viveza", "is_correct": false},
+        {"text": "Durest", "is_correct": false}
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Which of these are brands of makeup?",
+      "options": [
+        {"text": "Sephora", "is_correct": true},
+        {"text": "CoverGirl", "is_correct": true},
+        {"text": "Dior", "is_correct": true},
+        {"text": "Maybelline", "is_correct": true},
+        {"text": "ThriftyGal", "is_correct": false},
+        {"text": "Shiseido", "is_correct": true},
+        {"text": "Reis", "is_correct": false},
+        {"text": "Allenda", "is_correct": false},
+        {"text": "Aejeong", "is_correct": false},
+        {"text": "NewBeautyTruth", "is_correct": false}
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Which of these drugs are painkillers?",
+      "options": [
+        {"text": "Ibuprofen", "is_correct": true},
+        {"text": "Oxycodone", "is_correct": true},
+        {"text": "Morphine", "is_correct": true},
+        {"text": "Codeine", "is_correct": true},
+        {"text": "Modafinil", "is_correct": false},
+        {"text": "Asprin", "is_correct": true},
+        {"text": "Alemtuzumab", "is_correct": false},
+        {"text": "Creatine", "is_correct": false},
+        {"text": "Carboplatin", "is_correct": false},
+        {"text": "Semtex", "is_correct": false}
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Which of these diseases are sexually transmitted?",
+      "options": [
+        {"text": "Herpes", "is_correct": true},
+        {"text": "AIDS", "is_correct": true},
+        {"text": "Human Papillomavirus", "is_correct": true},
+        {"text": "Chlamydia", "is_correct": true},
+        {"text": "Botulism", "is_correct": false},
+        {"text": "Trichomoniasis", "is_correct": true},
+        {"text": "Pneumonia", "is_correct": false},
+        {"text": "Shingles", "is_correct": false},
+        {"text": "Pertusis", "is_correct": false},
+        {"text": "Tuberculosis", "is_correct": false}
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Which of these are brands of cigarettes?",
+      "options": [
+        {"text": "Marlboro", "is_correct": true},
+        {"text": "Camel", "is_correct": true},
+        {"text": "Pall Mall Box", "is_correct": true},
+        {"text": "Newport", "is_correct": true},
+        {"text": "Seagram&#x27;s", "is_correct": false},
+        {"text": "Pyramid", "is_correct": true},
+        {"text": "Windsor", "is_correct": false},
+        {"text": "Black Velvet", "is_correct": false},
+        {"text": "Solo", "is_correct": false},
+        {"text": "Black Turkey", "is_correct": false}
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Which of these are slang terms for marijuana?",
+      "options": [
+        {"text": "420", "is_correct": true},
+        {"text": "weed", "is_correct": true},
+        {"text": "chronic", "is_correct": true},
+        {"text": "ganja", "is_correct": true},
+        {"text": "smack", "is_correct": false},
+        {"text": "reefer", "is_correct": true},
+        {"text": "DnB", "is_correct": false},
+        {"text": "tilt", "is_correct": false},
+        {"text": "heavenly green", "is_correct": false},
+        {"text": "Jos&#xE9; Garcia", "is_correct": false}
+      ]
+    },
+    {
+      "id": 9,
+      "text": "Which of these were ever colonies of France?",
+      "options": [
+        {"text": "Ivory Coast", "is_correct": true},
+        {"text": "Senegal", "is_correct": true},
+        {"text": "Morocco", "is_correct": true},
+        {"text": "Quebec", "is_correct": true},
+        {"text": "India", "is_correct": false},
+        {"text": "Vietnam", "is_correct": true},
+        {"text": "Brazil", "is_correct": false},
+        {"text": "Florida", "is_correct": false},
+        {"text": "Egypt", "is_correct": false},
+        {"text": "South Africa", "is_correct": false}
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Which of these countries still have a monarchy (may only be ceremonial)?",
+      "options": [
+        {"text": "Japan", "is_correct": true},
+        {"text": "United Kingdom", "is_correct": true},
+        {"text": "Thailand", "is_correct": true},
+        {"text": "Sweden", "is_correct": true},
+        {"text": "France", "is_correct": false},
+        {"text": "Saudi Arabia", "is_correct": true},
+        {"text": "Russia", "is_correct": false},
+        {"text": "Germany", "is_correct": false},
+        {"text": "Brazil", "is_correct": false},
+        {"text": "China", "is_correct": false}
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Which of these countries produce a lot of oil?",
+      "options": [
+        {"text": "Venezuela", "is_correct": true},
+        {"text": "Saudi Arabia", "is_correct": true},
+        {"text": "Norway", "is_correct": true},
+        {"text": "Nigeria", "is_correct": true},
+        {"text": " Zimbabwe", "is_correct": false},
+        {"text": "Quatar", "is_correct": true},
+        {"text": "Singapore", "is_correct": false},
+        {"text": " Sweden", "is_correct": false},
+        {"text": "Japan", "is_correct": false},
+        {"text": "Panama", "is_correct": false}
+      ]
+    },
+    {
+      "id": 12,
+      "text": "Which of these countries possess nuclear weapons?",
+      "options": [
+        {"text": "France", "is_correct": true},
+        {"text": "Russia", "is_correct": true},
+        {"text": "China", "is_correct": true},
+        {"text": "Israel", "is_correct": true},
+        {"text": "Germany", "is_correct": false},
+        {"text": "Pakistan", "is_correct": true},
+        {"text": "Nigeria", "is_correct": false},
+        {"text": "Saudi Arabia", "is_correct": false},
+        {"text": "Spain", "is_correct": false},
+        {"text": "Mexico", "is_correct": false}
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Which of these file types are video?",
+      "options": [
+        {"text": ".mkv", "is_correct": true},
+        {"text": ".mp4", "is_correct": true},
+        {"text": ".wmv", "is_correct": true},
+        {"text": ".avi", "is_correct": true},
+        {"text": ".csv", "is_correct": false},
+        {"text": ".mov", "is_correct": true},
+        {"text": ".flac", "is_correct": false},
+        {"text": ".xls", "is_correct": false},
+        {"text": ".mp3", "is_correct": false},
+        {"text": ".msi", "is_correct": false}
+      ]
+    },
+    {
+      "id": 14,
+      "text": "Which of these are web browsers?",
+      "options": [
+        {"text": "Firefox", "is_correct": true},
+        {"text": "Internet Explorer", "is_correct": true},
+        {"text": "Opera", "is_correct": true},
+        {"text": "Safari", "is_correct": true},
+        {"text": "Slate", "is_correct": false},
+        {"text": "Chrome", "is_correct": true},
+        {"text": "Pipes", "is_correct": false},
+        {"text": "Expedition", "is_correct": false},
+        {"text": "Telegram", "is_correct": false},
+        {"text": "Adele", "is_correct": false}
+      ]
+    },
+    {
+      "id": 15,
+      "text": "Which of these are versions of the Linux operating system?",
+      "options": [
+        {"text": "Debian", "is_correct": true},
+        {"text": "Ubuntu", "is_correct": true},
+        {"text": "RHEL", "is_correct": true},
+        {"text": "Fedora", "is_correct": true},
+        {"text": "IIS", "is_correct": false},
+        {"text": "Slackware", "is_correct": true},
+        {"text": "Technitium", "is_correct": false},
+        {"text": "Kodiak", "is_correct": false},
+        {"text": "Go", "is_correct": false},
+        {"text": "Oracle", "is_correct": false}
+      ]
+    },
+    {
+      "id": 16,
+      "text": "Which of these are HTTP status codes?",
+      "options": [
+        {"text": "500 Internal Server Error", "is_correct": true},
+        {"text": "100 Continue", "is_correct": true},
+        {"text": "404 Not Found", "is_correct": true},
+        {"text": "301 Moved Permanently", "is_correct": true},
+        {"text": "500 Deleted", "is_correct": false},
+        {"text": "502 Bad Gateway", "is_correct": true},
+        {"text": "303 Payment Processing", "is_correct": false},
+        {"text": "600 Encrypted", "is_correct": false},
+        {"text": "101 Use Proxy", "is_correct": false},
+        {"text": "209 Download Complete", "is_correct": false}
+      ]
+    },
+    {
+      "id": 17,
+      "text": "Which of these are garments (pieces of clothing)?",
+      "options": [
+        {"text": "Tunic", "is_correct": true},
+        {"text": "Shirt", "is_correct": true},
+        {"text": "Shawl", "is_correct": true},
+        {"text": "Sarong", "is_correct": true},
+        {"text": "Jayanti", "is_correct": false},
+        {"text": "Camisole", "is_correct": true},
+        {"text": "Cornik", "is_correct": false},
+        {"text": "Wristlings", "is_correct": false},
+        {"text": "Frutiger", "is_correct": false},
+        {"text": "Cheapnik", "is_correct": false}
+      ]
+    },
+    {
+      "id": 18,
+      "text": "Which of these are craftsman&rsquo;s tools?",
+      "options": [
+        {"text": "Chisel", "is_correct": true},
+        {"text": "Saw", "is_correct": true},
+        {"text": "Caliper", "is_correct": true},
+        {"text": "Bevel", "is_correct": true},
+        {"text": "Skree", "is_correct": false},
+        {"text": "Awl", "is_correct": true},
+        {"text": "Whisket", "is_correct": false},
+        {"text": "Wry", "is_correct": false},
+        {"text": "Brutch", "is_correct": false},
+        {"text": "Skane", "is_correct": false}
+      ]
+    },
+    {
+      "id": 19,
+      "text": "Which of these are red wines?",
+      "options": [
+        {"text": "Cabernet sauvignon", "is_correct": true},
+        {"text": "Merlot", "is_correct": true},
+        {"text": "Sangiovese", "is_correct": true},
+        {"text": "Malbec", "is_correct": true},
+        {"text": "Chardonnay", "is_correct": false},
+        {"text": "Pinot noir", "is_correct": true},
+        {"text": "Moscato", "is_correct": false},
+        {"text": "Semillon", "is_correct": false},
+        {"text": "Riesling", "is_correct": false},
+        {"text": "Gew&uuml;rztraminer", "is_correct": false}
+      ]
+    },
+    {
+      "id": 20,
+      "text": "Which of these are card games?",
+      "options": [
+        {"text": "Hearts", "is_correct": true},
+        {"text": "Rummy", "is_correct": true},
+        {"text": "Bridge", "is_correct": true},
+        {"text": "Poker", "is_correct": true},
+        {"text": "Yatzhe ", "is_correct": false},
+        {"text": "Cribbidge", "is_correct": true},
+        {"text": "Bocce", "is_correct": false},
+        {"text": "Croquet", "is_correct": false},
+        {"text": "Manhattan", "is_correct": false},
+        {"text": "Black 2s", "is_correct": false}
+      ]
+    },
+    {
+      "id": 21,
+      "text": "Which of these are electronic components that might be found in an electrical circut?",
+      "options": [
+        {"text": "Inductor", "is_correct": true},
+        {"text": "Resistor", "is_correct": true},
+        {"text": "Transistor", "is_correct": true},
+        {"text": "Capacitor", "is_correct": true},
+        {"text": "Signer", "is_correct": false},
+        {"text": "Diode", "is_correct": true},
+        {"text": "Annulus", "is_correct": false},
+        {"text": "Subductor", "is_correct": false},
+        {"text": "Zenoid", "is_correct": false},
+        {"text": "Boson", "is_correct": false}
+      ]
+    },
+    {
+      "id": 22,
+      "text": "Which of these are cryptocurrencies?",
+      "options": [
+        {"text": "Litecoin", "is_correct": true},
+        {"text": "Bitcoin", "is_correct": true},
+        {"text": "Monero", "is_correct": true},
+        {"text": "Etherium", "is_correct": true},
+        {"text": "AlphaBay", "is_correct": false},
+        {"text": "Ripple", "is_correct": true},
+        {"text": "PayPal", "is_correct": false},
+        {"text": "DCA", "is_correct": false},
+        {"text": "Dwork", "is_correct": false},
+        {"text": "Liberty Ledger", "is_correct": false}
+      ]
+    },
+    {
+      "id": 23,
+      "text": "Which of these countries contain many ancient pyramids?",
+      "options": [
+        {"text": "Egypt", "is_correct": true},
+        {"text": "Mexico", "is_correct": true},
+        {"text": "Sudan", "is_correct": true},
+        {"text": "India", "is_correct": false},
+        {"text": "Greece", "is_correct": false},
+        {"text": "Indonesia", "is_correct": false},
+        {"text": "Congo", "is_correct": false},
+        {"text": "Turkey", "is_correct": false},
+        {"text": "Japan", "is_correct": false},
+        {"text": "Mongolia", "is_correct": false}
+      ]
+    },
+    {
+      "id": 24,
+      "text": "Who of these are famous criminals?",
+      "options": [
+        {"text": "Ted Kaczynski", "is_correct": true},
+        {"text": "Al Capone", "is_correct": true},
+        {"text": "Timothy McVeigh", "is_correct": true},
+        {"text": "Pablo Escobar", "is_correct": true},
+        {"text": "Harvey Parnell", "is_correct": false},
+        {"text": "Jim Jones", "is_correct": true},
+        {"text": "John Goodman", "is_correct": false},
+        {"text": "Sid McMath", "is_correct": false},
+        {"text": "Pavel Tikhonov", "is_correct": false},
+        {"text": "Buster Keaton", "is_correct": false}
+      ]
+    },
+    {
+      "id": 25,
+      "text": "Which of these books have more than 1,000 pages?",
+      "options": [
+        {"text": "Les Miserables", "is_correct": true},
+        {"text": "Infinite Jest", "is_correct": true},
+        {"text": "War and Peace", "is_correct": true},
+        {"text": "Atlas Shrugged", "is_correct": true},
+        {"text": "Pride and Prejudice", "is_correct": false},
+        {"text": "Cryptonomicon", "is_correct": true},
+        {"text": "Fahrenheit 451", "is_correct": false},
+        {"text": "Harry Potter and the Prisoner of Azkaban", "is_correct": false},
+        {"text": "Science, and its Antecedents", "is_correct": false},
+        {"text": "To Kill a Mockingbird", "is_correct": false}
+      ]
+    },
+    {
+      "id": 26,
+      "text": "Which of these are units of distance?",
+      "options": [
+        {"text": "Meter", "is_correct": true},
+        {"text": "Mile", "is_correct": true},
+        {"text": "Parsec", "is_correct": true},
+        {"text": "Furlong", "is_correct": true},
+        {"text": "Newton", "is_correct": false},
+        {"text": "Angstrom", "is_correct": true},
+        {"text": "Pitch", "is_correct": false},
+        {"text": "Pascal", "is_correct": false},
+        {"text": "Annum", "is_correct": false},
+        {"text": "Hertz", "is_correct": false}
+      ]
+    },
+    {
+      "id": 27,
+      "text": "Which of these are exercise programs?",
+      "options": [
+        {"text": "Zumba", "is_correct": true},
+        {"text": "CrossFit", "is_correct": true},
+        {"text": "Pilates", "is_correct": true},
+        {"text": "Barre", "is_correct": true},
+        {"text": "Shiatsu", "is_correct": false},
+        {"text": "Tabata", "is_correct": true},
+        {"text": "Gooba", "is_correct": false},
+        {"text": "Reflexology", "is_correct": false},
+        {"text": "NTP", "is_correct": false},
+        {"text": "UltraMaxFit", "is_correct": false}
+      ]
+    },
+    {
+      "id": 28,
+      "text": "Which of these are internet abbreviations?",
+      "options": [
+        {"text": "ROFL", "is_correct": true},
+        {"text": "LOL", "is_correct": true},
+        {"text": "GG", "is_correct": true},
+        {"text": "BRB", "is_correct": true},
+        {"text": "QTY", "is_correct": false},
+        {"text": "DM", "is_correct": true},
+        {"text": "AET", "is_correct": false},
+        {"text": "FUM", "is_correct": false},
+        {"text": "MRLO", "is_correct": false},
+        {"text": "TT", "is_correct": false}
+      ]
+    },
+    {
+      "id": 29,
+      "text": "Which of these words have similar meaning to the word &ldquo;fancy&rdquo;?",
+      "options": [
+        {"text": "adorned", "is_correct": true},
+        {"text": "ornate", "is_correct": true},
+        {"text": "resplendent", "is_correct": true},
+        {"text": "cushy", "is_correct": true},
+        {"text": "effective", "is_correct": false},
+        {"text": "spiffy", "is_correct": true},
+        {"text": "esulent", "is_correct": false},
+        {"text": "virile", "is_correct": false},
+        {"text": "thalassic", "is_correct": false},
+        {"text": "adscititious", "is_correct": false}
+      ]
+    },
+    {
+      "id": 30,
+      "text": "Which of these are types of computer cables?",
+      "options": [
+        {"text": "USB", "is_correct": true},
+        {"text": "HDMI", "is_correct": true},
+        {"text": "SATA", "is_correct": true},
+        {"text": "Ethernet", "is_correct": true},
+        {"text": "WiFi", "is_correct": false},
+        {"text": "FireWire", "is_correct": true},
+        {"text": "2Interlink", "is_correct": false},
+        {"text": "D-High", "is_correct": false},
+        {"text": "HDD", "is_correct": false},
+        {"text": "RTC", "is_correct": false}
+      ]
+    },
+    {
+      "id": 31,
+      "text": "Which of these are types of cancer?",
+      "options": [
+        {"text": "Lymphoma", "is_correct": true},
+        {"text": "Lukemia", "is_correct": true},
+        {"text": "Mesothelioma", "is_correct": true},
+        {"text": "Melanoma", "is_correct": true},
+        {"text": "Lymnoma", "is_correct": false},
+        {"text": "Sarcoma", "is_correct": true},
+        {"text": "Vitisus", "is_correct": false},
+        {"text": "Colerectia", "is_correct": false},
+        {"text": "Cellenia", "is_correct": false},
+        {"text": "Tradoma", "is_correct": false}
+      ]
+    },
+    {
+      "id": 32,
+      "text": "Which of these are fabric patterns?",
+      "options": [
+        {"text": "Paisley", "is_correct": true},
+        {"text": "Calico", "is_correct": true},
+        {"text": "Plaid", "is_correct": true},
+        {"text": "Pinstripe", "is_correct": true},
+        {"text": "Periwinkle", "is_correct": false},
+        {"text": "Tartan", "is_correct": true},
+        {"text": "Stilted", "is_correct": false},
+        {"text": "Snapdragon", "is_correct": false},
+        {"text": "Tahoma", "is_correct": false},
+        {"text": "Arvo", "is_correct": false}
+      ]
+    }
+  ],
+  "results": {
+    "title": "General Knowledge Test Results",
+    "score_description": [
+      {
+        "range": "0-40",
+        "text": "Your score indicates a foundational level of general knowledge. There's a lot to learn, and every test is an opportunity for growth!"
+      },
+      {
+        "range": "41-80",
+        "text": "Your general knowledge is solid. You have a good grasp of many different subjects. Keep exploring and expanding your knowledge!"
+      },
+      {
+        "range": "81-120",
+        "text": "Your score reflects excellent general knowledge. You are well-informed across a wide range of topics. Impressive!"
+      },
+      {
+        "range": "121-160",
+        "text": "Outstanding general knowledge! Your ability to accurately identify correct information across diverse fields is exceptional."
+      }
+    ],
+    "max_possible_score": 160,
+    "score_calculation_method": "Number of right answers selected minus the number of wrong answers selected (per question). Total score is the sum of scores from all questions. Each question has 5 correct answers and 5 incorrect answers.",
+    "disclaimer": "This test is for entertainment and informational purposes only and does not reflect overall intelligence or academic ability. It provides a snapshot of your general knowledge in specific categories. Remember, continuous learning is key!"
+  }
+}

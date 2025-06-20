@@ -1,0 +1,348 @@
+{
+  "test_name": "Narcissistic Personality Test",
+  "description": "For each pair of statements, choose the one that best describes you. Your result will be calculated based on your answers.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I have a natural talent for influencing people.",
+        "I am not good at influencing people."
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Which statement best describes you?",
+      "options": [
+        "Modesty doesn't become me.",
+        "I am essentially a modest person."
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I would do almost anything on a dare.",
+        "I tend to be a fairly cautious person."
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Which statement best describes you?",
+      "options": [
+        "When people compliment me I sometimes get embarrassed.",
+        "I know that I am good because everybody keeps telling me so."
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which statement best describes you?",
+      "options": [
+        "The thought of ruling the world frightens the hell out of me.",
+        "If I ruled the world it would be a better place."
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I can usually talk my way out of anything.",
+        "I try to accept the consequences of my behavior."
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I prefer to blend in with the crowd.",
+        "I like to be the center of attention."
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I will be a success.",
+        "I am not too concerned about success."
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I am no better or worse than most people.",
+        "I think I am a special person."
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I am not sure if I would make a good leader.",
+        "I see myself as a good leader."
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I am assertive.",
+        "I wish I were more assertive."
+      ]
+    },
+    {
+      "id": 12,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I like to have authority over other people.",
+        "I don't mind following orders."
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I find it easy to manipulate people.",
+        "I don't like it when I find myself manipulating people."
+      ]
+    },
+    {
+      "id": 14,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I insist upon getting the respect that is due me.",
+        "I usually get the respect that I deserve."
+      ]
+    },
+    {
+      "id": 15,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I don't particularly like to show off my body.",
+        "I like to show off my body."
+      ]
+    },
+    {
+      "id": 16,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I can read people like a book.",
+        "People are sometimes hard to understand."
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Which statement best describes you?",
+      "options": [
+        "If I feel competent I am willing to take responsibility for making decisions.",
+        "I like to take responsibility for making decisions."
+      ]
+    },
+    {
+      "id": 18,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I just want to be reasonably happy.",
+        "I want to amount to something in the eyes of the world."
+      ]
+    },
+    {
+      "id": 19,
+      "question": "Which statement best describes you?",
+      "options": [
+        "My body is nothing special.",
+        "I like to look at my body."
+      ]
+    },
+    {
+      "id": 20,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I try not to be a show off.",
+        "I will usually show off if I get the chance."
+      ]
+    },
+    {
+      "id": 21,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I always know what I am doing.",
+        "Sometimes I am not sure of what I am doing."
+      ]
+    },
+    {
+      "id": 22,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I sometimes depend on people to get things done.",
+        "I rarely depend on anyone else to get things done."
+      ]
+    },
+    {
+      "id": 23,
+      "question": "Which statement best describes you?",
+      "options": [
+        "Sometimes I tell good stories.",
+        "Everybody likes to hear my stories."
+      ]
+    },
+    {
+      "id": 24,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I expect a great deal from other people.",
+        "I like to do things for other people."
+      ]
+    },
+    {
+      "id": 25,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I will never be satisfied until I get all that I deserve.",
+        "I take my satisfactions as they come."
+      ]
+    },
+    {
+      "id": 26,
+      "question": "Which statement best describes you?",
+      "options": [
+        "Compliments embarrass me.",
+        "I like to be complimented."
+      ]
+    },
+    {
+      "id": 27,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I have a strong will to power.",
+        "Power for its own sake doesn't interest me."
+      ]
+    },
+    {
+      "id": 28,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I don't care about new fads and fashions.",
+        "I like to start new fads and fashions."
+      ]
+    },
+    {
+      "id": 29,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I like to look at myself in the mirror.",
+        "I am not particularly interested in looking at myself in the mirror."
+      ]
+    },
+    {
+      "id": 30,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I really like to be the center of attention.",
+        "It makes me uncomfortable to be the center of attention."
+      ]
+    },
+    {
+      "id": 31,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I can live my life in any way I want to.",
+        "People can't always live their lives in terms of what they want."
+      ]
+    },
+    {
+      "id": 32,
+      "question": "Which statement best describes you?",
+      "options": [
+        "Being an authority doesn't mean that much to me.",
+        "People always seem to recognize my authority."
+      ]
+    },
+    {
+      "id": 33,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I would prefer to be a leader.",
+        "It makes little difference to me whether I am a leader or not."
+      ]
+    },
+    {
+      "id": 34,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I am going to be a great person.",
+        "I hope I am going to be successful."
+      ]
+    },
+    {
+      "id": 35,
+      "question": "Which statement best describes you?",
+      "options": [
+        "People sometimes believe what I tell them.",
+        "I can make anybody believe anything I want them to."
+      ]
+    },
+    {
+      "id": 36,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I am a born leader.",
+        "Leadership is a quality that takes a long time to develop."
+      ]
+    },
+    {
+      "id": 37,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I wish somebody would someday write my biography.",
+        "I don't like people to pry into my life for any reason."
+      ]
+    },
+    {
+      "id": 38,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I get upset when people don't notice how I look when I go out in public.",
+        "I don't mind blending into the crowd when I go out in public."
+      ]
+    },
+    {
+      "id": 39,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I am more capable than other people.",
+        "There is a lot that I can learn from other people."
+      ]
+    },
+    {
+      "id": 40,
+      "question": "Which statement best describes you?",
+      "options": [
+        "I am much like everybody else.",
+        "I am an extraordinary person."
+      ]
+    }
+  ],
+  "results": {
+    "title": "Your Narcissism Score",
+    "score_description": [
+      {
+        "range": "0-10",
+        "text": "Low narcissistic traits. You tend to be modest and avoid self-centered behavior."
+      },
+      {
+        "range": "11-20",
+        "text": "Moderate narcissistic traits. You may have a healthy level of self-esteem but also value others’ perspectives."
+      },
+      {
+        "range": "21-30",
+        "text": "High narcissistic traits. You likely see yourself as special and enjoy being the center of attention."
+      },
+      {
+        "range": "31-40",
+        "text": "Very high narcissistic traits. You may have strong leadership tendencies but could struggle with empathy."
+      }
+    ],
+    "disclaimer": "This test is not a diagnostic tool. For a full psychological assessment, consult a licensed professional."
+  }
+}

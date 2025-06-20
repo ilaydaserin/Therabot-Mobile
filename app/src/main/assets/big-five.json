@@ -1,0 +1,357 @@
+{
+  "test_name": "IPIP-BFFM",
+  "version": "50-item",
+  "description": "The IPIP-BFFM (International Personality Item Pool - Big Five Factor Markers) is a widely used 50-item questionnaire designed to measure the five broad domains of personality: Extraversion, Agreeableness, Conscientiousness, Emotional Stability (Neuroticism), and Intellect/Imagination (Openness to Experience).",
+  "scale_description": "Each item is rated on a 5-point Likert scale.",
+  "scale": {
+    "1": "Very Inaccurate",
+    "2": "Inaccurate",
+    "3": "Neither Accurate Nor Inaccurate",
+    "4": "Accurate",
+    "5": "Very Accurate"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "I am the life of the party.",
+      "trait": "Extraversion",
+      "reverse_scored": false
+    },
+    {
+      "id": 2,
+      "text": "I feel little concern for others.",
+      "trait": "Agreeableness",
+      "reverse_scored": true
+    },
+    {
+      "id": 3,
+      "text": "I am always prepared.",
+      "trait": "Conscientiousness",
+      "reverse_scored": false
+    },
+    {
+      "id": 4,
+      "text": "I get stressed out easily.",
+      "trait": "Emotional Stability",
+      "reverse_scored": true
+    },
+    {
+      "id": 5,
+      "text": "I have a rich vocabulary.",
+      "trait": "Intellect/Imagination",
+      "reverse_scored": false
+    },
+    {
+      "id": 6,
+      "text": "I do not talk a lot.",
+      "trait": "Extraversion",
+      "reverse_scored": true
+    },
+    {
+      "id": 7,
+      "text": "I am interested in people.",
+      "trait": "Agreeableness",
+      "reverse_scored": false
+    },
+    {
+      "id": 8,
+      "text": "I leave my belongings around.",
+      "trait": "Conscientiousness",
+      "reverse_scored": true
+    },
+    {
+      "id": 9,
+      "text": "I am relaxed most of the time.",
+      "trait": "Emotional Stability",
+      "reverse_scored": false
+    },
+    {
+      "id": 10,
+      "text": "I have difficulty understanding abstract ideas.",
+      "trait": "Intellect/Imagination",
+      "reverse_scored": true
+    },
+    {
+      "id": 11,
+      "text": "I feel comfortable around people.",
+      "trait": "Extraversion",
+      "reverse_scored": false
+    },
+    {
+      "id": 12,
+      "text": "I insult people.",
+      "trait": "Agreeableness",
+      "reverse_scored": true
+    },
+    {
+      "id": 13,
+      "text": "I pay attention to details.",
+      "trait": "Conscientiousness",
+      "reverse_scored": false
+    },
+    {
+      "id": 14,
+      "text": "I worry about things.",
+      "trait": "Emotional Stability",
+      "reverse_scored": true
+    },
+    {
+      "id": 15,
+      "text": "I have a vivid imagination.",
+      "trait": "Intellect/Imagination",
+      "reverse_scored": false
+    },
+    {
+      "id": 16,
+      "text": "I keep in the background.",
+      "trait": "Extraversion",
+      "reverse_scored": true
+    },
+    {
+      "id": 17,
+      "text": "I sympathize with others' feelings.",
+      "trait": "Agreeableness",
+      "reverse_scored": false
+    },
+    {
+      "id": 18,
+      "text": "I make a mess of things.",
+      "trait": "Conscientiousness",
+      "reverse_scored": true
+    },
+    {
+      "id": 19,
+      "text": "I seldom feel blue.",
+      "trait": "Emotional Stability",
+      "reverse_scored": false
+    },
+    {
+      "id": 20,
+      "text": "I am not interested in abstract ideas.",
+      "trait": "Intellect/Imagination",
+      "reverse_scored": true
+    },
+    {
+      "id": 21,
+      "text": "I start conversations.",
+      "trait": "Extraversion",
+      "reverse_scored": false
+    },
+    {
+      "id": 22,
+      "text": "I am not interested in other people's problems.",
+      "trait": "Agreeableness",
+      "reverse_scored": true
+    },
+    {
+      "id": 23,
+      "text": "I get chores done right away.",
+      "trait": "Conscientiousness",
+      "reverse_scored": false
+    },
+    {
+      "id": 24,
+      "text": "I am easily disturbed.",
+      "trait": "Emotional Stability",
+      "reverse_scored": true
+    },
+    {
+      "id": 25,
+      "text": "I have excellent ideas.",
+      "trait": "Intellect/Imagination",
+      "reverse_scored": false
+    },
+    {
+      "id": 26,
+      "text": "I have little to say.",
+      "trait": "Extraversion",
+      "reverse_scored": true
+    },
+    {
+      "id": 27,
+      "text": "I have a soft heart.",
+      "trait": "Agreeableness",
+      "reverse_scored": false
+    },
+    {
+      "id": 28,
+      "text": "I often forget to put things back in their proper place.",
+      "trait": "Conscientiousness",
+      "reverse_scored": true
+    },
+    {
+      "id": 29,
+      "text": "I get upset easily.",
+      "trait": "Emotional Stability",
+      "reverse_scored": true
+    },
+    {
+      "id": 30,
+      "text": "I do not have a good imagination.",
+      "trait": "Intellect/Imagination",
+      "reverse_scored": true
+    },
+    {
+      "id": 31,
+      "text": "I talk to a lot of different people at parties.",
+      "trait": "Extraversion",
+      "reverse_scored": false
+    },
+    {
+      "id": 32,
+      "text": "I am not really interested in others.",
+      "trait": "Agreeableness",
+      "reverse_scored": true
+    },
+    {
+      "id": 33,
+      "text": "I like order.",
+      "trait": "Conscientiousness",
+      "reverse_scored": false
+    },
+    {
+      "id": 34,
+      "text": "I change my mood a lot.",
+      "trait": "Emotional Stability",
+      "reverse_scored": true
+    },
+    {
+      "id": 35,
+      "text": "I am quick to understand things.",
+      "trait": "Intellect/Imagination",
+      "reverse_scored": false
+    },
+    {
+      "id": 36,
+      "text": "I do not like to draw attention to myself.",
+      "trait": "Extraversion",
+      "reverse_scored": true
+    },
+    {
+      "id": 37,
+      "text": "I take time out for others.",
+      "trait": "Agreeableness",
+      "reverse_scored": false
+    },
+    {
+      "id": 38,
+      "text": "I shirk my duties.",
+      "trait": "Conscientiousness",
+      "reverse_scored": true
+    },
+    {
+      "id": 39,
+      "text": "I have frequent mood swings.",
+      "trait": "Emotional Stability",
+      "reverse_scored": true
+    },
+    {
+      "id": 40,
+      "text": "I use difficult words.",
+      "trait": "Intellect/Imagination",
+      "reverse_scored": false
+    },
+    {
+      "id": 41,
+      "text": "I do not mind being the center of attention.",
+      "trait": "Extraversion",
+      "reverse_scored": false
+    },
+    {
+      "id": 42,
+      "text": "I feel others' emotions.",
+      "trait": "Agreeableness",
+      "reverse_scored": false
+    },
+    {
+      "id": 43,
+      "text": "I follow a schedule.",
+      "trait": "Conscientiousness",
+      "reverse_scored": false
+    },
+    {
+      "id": 44,
+      "text": "I get irritated easily.",
+      "trait": "Emotional Stability",
+      "reverse_scored": true
+    },
+    {
+      "id": 45,
+      "text": "I spend time reflecting on things.",
+      "trait": "Intellect/Imagination",
+      "reverse_scored": false
+    },
+    {
+      "id": 46,
+      "text": "I am quiet around strangers.",
+      "trait": "Extraversion",
+      "reverse_scored": true
+    },
+    {
+      "id": 47,
+      "text": "I make people feel at ease.",
+      "trait": "Agreeableness",
+      "reverse_scored": false
+    },
+    {
+      "id": 48,
+      "text": "I am exacting in my work.",
+      "trait": "Conscientiousness",
+      "reverse_scored": false
+    },
+    {
+      "id": 49,
+      "text": "I often feel blue.",
+      "trait": "Emotional Stability",
+      "reverse_scored": true
+    },
+    {
+      "id": 50,
+      "text": "I am full of ideas.",
+      "trait": "Intellect/Imagination",
+      "reverse_scored": false
+    }
+  ],
+  "scoring_and_interpretation": {
+    "scoring_method": "Each trait has 10 items. Items are rated on a 5-point Likert scale (1=Very Inaccurate, 5=Very Accurate). For 'reverse_scored: false' items, the score is taken directly. For 'reverse_scored: true' items, the score is reversed (e.g., 1 becomes 5, 2 becomes 4, 3 remains 3, 4 becomes 2, 5 becomes 1). The sum of the scores for the 10 items within each trait gives the total score for that trait (ranging from 10 to 50).",
+    "trait_dimensions": [
+      {
+        "name": "Extraversion",
+        "description": "Characterized by positive emotions, assertiveness, gregariousness, activity, excitement-seeking, and warmth. Reflects how much someone seeks and enjoys social interaction and external stimulation.",
+        "high_score_interpretation": "Highly outgoing, sociable, energetic, talkative, and enjoys being the center of attention. Tends to be assertive and seeks excitement.",
+        "low_score_interpretation": "More introverted, reserved, prefers solitude or smaller groups, may be quieter and less assertive."
+      },
+      {
+        "name": "Agreeableness",
+        "description": "Characterized by being compassionate, cooperative, kind, trusting, empathetic, and generally amiable. Reflects how much someone values getting along with others.",
+        "high_score_interpretation": "Compassionate, good-natured, cooperative, trusting, and empathetic. Tends to be polite and avoids conflict.",
+        "low_score_interpretation": "More competitive, skeptical, may be more direct or assertive, and less concerned with pleasing others."
+      },
+      {
+        "name": "Conscientiousness",
+        "description": "Characterized by self-discipline, organization, dutifulness, diligence, planning, and dependability. Reflects how much someone is goal-directed and orderly.",
+        "high_score_interpretation": "Organized, responsible, detail-oriented, hard-working, disciplined, and aims for high achievement. Follows plans and meets deadlines.",
+        "low_score_interpretation": "More spontaneous, less structured, may be disorganized, and might procrastinate or be less reliable."
+      },
+      {
+        "name": "Emotional Stability",
+        "description": "Reflects emotional calmness, resilience to stress, and absence of negative emotions (e.g., anxiety, anger, depression). This is the inverse of Neuroticism.",
+        "high_score_interpretation": "Generally calm, relaxed, resilient to stress, and emotionally stable. Seldom worried or easily upset. (Low Neuroticism)",
+        "low_score_interpretation": "Prone to negative emotions, easily stressed, anxious, moody, and may experience emotional volatility. (High Neuroticism)"
+      },
+      {
+        "name": "Intellect/Imagination",
+        "description": "Often referred to as Openness to Experience. Characterized by intellectual curiosity, creativity, aesthetic appreciation, imagination, and a preference for variety.",
+        "high_score_interpretation": "Highly imaginative, intellectually curious, open to new ideas and experiences, artistic, and enjoys abstract concepts. Tends to be original and insightful.",
+        "low_score_interpretation": "More conventional, practical, less interested in abstract or artistic pursuits, and prefers familiarity over novelty."
+      }
+    ],
+    "score_ranges_general": {
+      "range": "10-50 for each trait (10 items * 1-5 score)",
+      "low": "10-23 (Lower than average manifestation of the trait)",
+      "average": "24-37 (Average manifestation of the trait)",
+      "high": "38-50 (Higher than average manifestation of the trait)"
+    },
+    "important_disclaimer": "The IPIP-BFFM is a self-report measure and provides insights into broad personality traits. It is not intended for clinical diagnosis. Professional psychological assessment and interpretation should be conducted by a qualified expert. These general score ranges are illustrative and not based on specific population norms; interpretation should consider individual context."
+  }
+}

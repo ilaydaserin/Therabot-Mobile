@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_night_in1"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".DailyMood">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="16dp">
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="How Are You Feeling Today?"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/comforta" />
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="@color/neutral_light_gray"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select Your Mood"
+                    android:textColor="@color/text_on_light_bg"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/comforta" />
+                <LinearLayout
+                    android:id="@+id/emojiContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/emoji1"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:layout_marginTop="6dp"
+                            android:onClick="selectMood"
+                            android:src="@drawable/sentiment_verryhappy"
+                            android:contentDescription="Very Happy Emoji"
+                            android:tag="very_happy" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="1dp"
+                            android:text="Very Happy"
+                            android:textColor="@color/hint_text_soft_dark"
+                            android:textSize="12sp"
+                            android:fontFamily="@font/comforta" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/emoji2"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:onClick="selectMood"
+                            android:src="@drawable/sentiment_happy"
+                            android:contentDescription="Happy Emoji"
+                            android:tag="happy" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="Happy"
+                            android:textColor="@color/hint_text_soft_dark"
+                            android:textSize="12sp"
+                            android:fontFamily="@font/comforta" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/emoji3"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:onClick="selectMood"
+                            android:src="@drawable/sentiment_neutral_24dp_d16d6a_f_ll0_wght400_grad0_opsz24"
+                            android:contentDescription="Neutral Emoji"
+                            android:tag="neutral" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="Neutral"
+                            android:textColor="@color/hint_text_soft_dark"
+                            android:textSize="12sp"
+                            android:fontFamily="@font/comforta" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/emoji4"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:onClick="selectMood"
+                            android:src="@drawable/sentiment_sad"
+                            android:contentDescription="Sad Emoji"
+                            android:tag="sad" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="Sad"
+                            android:textColor="@color/hint_text_soft_dark"
+                            android:textSize="12sp"
+                            android:fontFamily="@font/comforta" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/emoji5"
+                            android:layout_width="48dp"
+                            android:layout_height="48dp"
+                            android:onClick="selectMood"
+                            android:src="@drawable/sentiment_verrysad"
+                            android:contentDescription="Very Sad Emoji"
+                            android:tag="very_sad" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="4dp"
+                            android:text="Very Sad"
+                            android:textColor="@color/hint_text_soft_dark"
+                            android:textSize="12sp"
+                            android:fontFamily="@font/comforta" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/selectedMoodContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/selected_mood_background"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="12dp"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/selectedMoodEmoji"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp" />
+
+                    <TextView
+                        android:id="@+id/selectedMoodText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:textColor="@color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/comforta" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/noteCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="@color/neutral_light_gray"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your Daily Note"
+                    android:textColor="@color/text_on_light_bg"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/comforta" />
+
+                <EditText
+                    android:id="@+id/dailyNoteEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/edittext_background"
+                    android:gravity="top"
+                    android:hint="Write your note for today here..."
+                    android:inputType="textMultiLine"
+                    android:padding="12dp"
+                    android:textColor="@color/text_on_light_bg"
+                    android:textColorHint="@color/hint_text_soft" />
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnSelectDate"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:text="Select Date"
+                    android:textColor="@color/primary_dark_blue"
+                    app:icon="@drawable/ic_calendar"
+                    app:iconTint="@color/primary_dark_blue"
+                    app:strokeColor="@color/primary_dark_blue"
+                    app:strokeWidth="1dp"
+                    app:cornerRadius="8dp"
+                    android:fontFamily="@font/comforta"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+                <Button
+                    android:id="@+id/saveNoteButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="8dp"
+                    android:backgroundTint="#E3A77C"
+                    android:text="Save"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/comforta" />
+            </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/neutral_light_gray"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp"> <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                app:mcv_dateTextAppearance="@style/CalendarDateTextAppearance"
+                app:mcv_headerTextAppearance="@style/CalendarHeaderTextAppearance"
+                app:mcv_selectionColor="@color/card_calm_blue"
+                app:mcv_showOtherDates="all"
+                app:mcv_tileHeight="44dp"
+                app:mcv_weekDayTextAppearance="@style/CalendarWeekDayTextAppearance" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <Button
+                    android:id="@+id/monthlyAnalysisButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="4dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_background"
+                    android:text="Monthly Analysis"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/comforta" />
+            </LinearLayout>
+
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

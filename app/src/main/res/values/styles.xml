@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <!-- Tema ve diğer stiller varsa bunları değiştirme -->
+
+        <style name="TestButtonStyle" parent="Widget.MaterialComponents.Button">
+            <item name="android:layout_width">0dp</item>
+            <item name="android:layout_height">0dp</item>
+            <item name="android:layout_columnWeight">1</item>
+            <item name="android:layout_rowWeight">1</item>
+            <item name="android:padding">12dp</item>
+            <item name="android:textSize">14sp</item>
+            <item name="android:textColor">#FFFFFF</item>
+            <item name="backgroundTint">#4A90E2</item>
+            <item name="cornerRadius">24dp</item> <!-- app:cornerRadius yerine -->
+            <item name="android:gravity">center</item>
+            <item name="android:layout_margin">8dp</item>
+        </style>
+
+    <!-- Takvim başlık stili -->
+    <style name="CalendarHeaderTextAppearance" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">#FF9800</item> <!-- Turuncu başlık -->
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Takvim gün stili -->
+    <style name="CalendarDateTextAppearance" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">#BDBDBD</item> <!-- Beyaz tarihler -->
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- Takvim hafta günü stili -->
+    <style name="CalendarWeekDayTextAppearance" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">#BDBDBD</item> <!-- Açık gri hafta günleri -->
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+</resources>

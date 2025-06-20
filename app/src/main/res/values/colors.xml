@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Arka plan rengi (açık gri) -->
+    <color name="background">#F5F5F5</color>
+
+    <!-- Birincil renk (mor) -->
+    <color name="primaryColor">#6200EE</color>
+
+    <!-- Birincil renk tonu (daha açık mor) -->
+    <color name="primaryLightColor">#BB86FC</color>
+
+    <!-- İkincil renk (turkuaz) -->
+    <color name="secondaryColor">#03DAC6</color>
+
+    <!-- Metin renkleri -->
+    <color name="primaryText">#000000</color> <!-- Siyah -->
+    <color name="secondaryText">#757575</color> <!-- Gri -->>
+
+    <!-- Buton ve diğer bileşenler için renkler -->
+    <color name="buttonText">#FFFFFF</color> <!-- Buton metin rengi (beyaz) -->
+    <color name="buttonBackground">#6200EE</color> <!-- Buton arka plan rengi (mor) -->
+
+    <!-- Hata ve uyarı renkleri -->
+    <color name="errorColor">#B00020</color> <!-- Kırmızı -->
+    <color name="warningColor">#FFC107</color> <!-- Sarı -->
+
+
+    <!-- Başarı rengi (yeşil) -->
+    <color name="successColor">#4CAF50</color>
+
+    <!-- Divider ve çizgi renkleri -->
+    <color name="acikgri">#A2BEDC</color> <!-- Açık gri -->
+
+    <color name="lacivert">#042440</color>
+    <color name="mor">#4E499E</color>
+    <color name="lila">#B793C9</color>
+    <color name="pembe">#D26B9D</color>
+
+
+    <color name="DcolorPrimary">#6A11CB</color>
+    <color name="DcolorPrimaryDark">#2575FC</color>
+    <color name="DcolorAccent">#FF4081</color>
+    <color name="DcolorAccentLight">#FF80AB</color>
+
+    <color name="Dcard_background">#F5F5F5</color>
+    <color name="Dtext_primary">#212121</color>
+    <color name="Dtext_secondary">#757575</color>
+    <color name="Dtext_hint">#BDBDBD</color>
+    <color name="Dwhite">#FFFFFF</color>
+
+    <color name="primary_color">#5A6AB1</color>
+
+
+    <color name="light_gray">#F0F2F5</color>
+    <color name="warm_beige">#EAE7E1</color>
+    <color name="dark_gray">#4A4A4A</color>
+
+    <!-- Ana ve Temel Renkler -->
+    <color name="deep_navy">#1A2B42</color>       <!-- Genel ana renk, başlıklar, butonlar -->
+    <color name="sage_green">#A0C9B6</color>      <!-- İkincil vurgu, bazı elementler -->
+    <color name="light_gray_bg">#F0F2F5</color>  <!-- Açık arka plan rengi -->
+    <color name="warm_beige_bg">#EAE7E1</color>  <!-- Alternatif açık arka plan rengi -->
+
+    <!-- Vurgu Renkleri (Kartlar için belirlediğimiz renkler de burada olabilir) -->
+    <color name="pastel_blue">#8CAFE6</color>
+    <color name="soft_peach">#FFB28C</color>
+    <color name="pale_gold">#CBB59B</color>
+    <color name="grayish_blue">#7A8B9C</color>
+
+    <!-- Metin Renkleri -->
+    <color name="white">#FFFFFF</color>           <!-- Koyu zeminlerde beyaz metin -->
+    <color name="dark_text">#4A4A4A</color>       <!-- Açık zeminlerde koyu metin -->
+    <color name="hint_text_color">#757575</color> <!-- İpuçları için daha yumuşak gri -->
+
+
+        <color name="black">#000000</color>
+        <color name="cosmic_navy">#1F2E4A</color>
+        <color name="twilight_purple">#6C4F8D</color>
+        <color name="sunrise_peach">#E3A77C</color>
+        <color name="primary_dark_blue">#1A2B42</color>
+        <color name="secondary_accent_green">#A0C9B6</color>
+        <color name="neutral_light_gray">#F0F2F5</color>
+        <color name="neutral_warm_beige">#EAE7E1</color>
+        <color name="text_on_dark_bg">#FFFFFF</color>
+        <color name="text_on_light_bg">#4A4A4A</color>
+        <color name="hint_text_soft">#B0B0B0</color>
+        <color name="hint_text_soft_dark">#757575</color>
+        <color name="card_calm_blue">#8CAFE6</color>
+        <color name="card_empathy_peach">#FFB28C</color>
+        <color name="card_wisdom_gold">#CBB59B</color>
+        <color name="card_support_gray_blue">#7A8B9C</color>
+        <color name="card_communication_green">#A0C9B6</color>
+
+    <color name="menu_card">#FFB28C</color>
+    <color name="transparent">#00FFFFFF</color>
+
+</resources>

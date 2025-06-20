@@ -1,0 +1,328 @@
+{
+  "test_name": "Fisher Temperament Inventory",
+  "version": "56-item",
+  "description": "Dr. Helen Fisher tarafından geliştirilen Fisher Mizaç Envanteri, beyindeki dört temel nörotransmitter sistemiyle ilişkilendirilen mizaç özelliklerini ölçer: meraklı/enerjik (dopamin), dikkatli/sosyal normlara uyumlu (serotonin), analitik/mantık odaklı (testosteron) ve sosyal/empatik (östrojen/oksitosin).",
+  "scale": {
+    "1": "Strongly Disagree",
+    "2": "Disagree",
+    "3": "Agree",
+    "4": "Strongly Agree"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "I find unpredictable situations exhilarating.",
+      "trait": "Curious/Energetic"
+    },
+    {
+      "id": 2,
+      "text": "I get bored easily when things are too predictable.",
+      "trait": "Curious/Energetic"
+    },
+    {
+      "id": 3,
+      "text": "I enjoy exploring new ideas and concepts.",
+      "trait": "Curious/Energetic"
+    },
+    {
+      "id": 4,
+      "text": "I seek out new experiences and challenges.",
+      "trait": "Curious/Energetic"
+    },
+    {
+      "id": 5,
+      "text": "I am highly energetic and love staying busy.",
+      "trait": "Curious/Energetic"
+    },
+    {
+      "id": 6,
+      "text": "I like taking risks and stepping outside of my comfort zone.",
+      "trait": "Curious/Energetic"
+    },
+    {
+      "id": 7,
+      "text": "I prefer structure and predictability.",
+      "trait": "Cautious/Social Norm Compliant"
+    },
+    {
+      "id": 8,
+      "text": "I am careful when making decisions to avoid making mistakes.",
+      "trait": "Cautious/Social Norm Compliant"
+    },
+    {
+      "id": 9,
+      "text": "I follow established rules and social norms closely.",
+      "trait": "Cautious/Social Norm Compliant"
+    },
+    {
+      "id": 10,
+      "text": "I prefer to stick to routines and avoid uncertainty.",
+      "trait": "Cautious/Social Norm Compliant"
+    },
+    {
+      "id": 11,
+      "text": "I avoid situations that might lead to embarrassment or failure.",
+      "trait": "Cautious/Social Norm Compliant"
+    },
+    {
+      "id": 12,
+      "text": "I enjoy making logical, well-thought-out decisions.",
+      "trait": "Cautious/Social Norm Compliant"
+    },
+    {
+      "id": 13,
+      "text": "I enjoy analyzing complex problems and solving them logically.",
+      "trait": "Analytical/Tough-minded"
+    },
+    {
+      "id": 14,
+      "text": "I am good at thinking through difficult issues and finding solutions.",
+      "trait": "Analytical/Tough-minded"
+    },
+    {
+      "id": 15,
+      "text": "I enjoy debates and discussions where I can defend my point of view.",
+      "trait": "Analytical/Tough-minded"
+    },
+    {
+      "id": 16,
+      "text": "I tend to be critical of ideas that are not supported by evidence.",
+      "trait": "Analytical/Tough-minded"
+    },
+    {
+      "id": 17,
+      "text": "I prefer to make decisions based on facts rather than emotions.",
+      "trait": "Analytical/Tough-minded"
+    },
+    {
+      "id": 18,
+      "text": "I tend to be skeptical and like to question everything.",
+      "trait": "Analytical/Tough-minded"
+    },
+    {
+      "id": 19,
+      "text": "I can easily understand complex systems and structures.",
+      "trait": "Analytical/Tough-minded"
+    },
+    {
+      "id": 20,
+      "text": "I enjoy helping others solve their personal problems.",
+      "trait": "Prosocial/Empathetic"
+    },
+    {
+      "id": 21,
+      "text": "I often feel concerned about the well-being of others.",
+      "trait": "Prosocial/Empathetic"
+    },
+    {
+      "id": 22,
+      "text": "I am deeply affected by the emotions of those around me.",
+      "trait": "Prosocial/Empathetic"
+    },
+    {
+      "id": 23,
+      "text": "I prefer to help others when they are struggling, even when it’s inconvenient.",
+      "trait": "Prosocial/Empathetic"
+    },
+    {
+      "id": 24,
+      "text": "I often go out of my way to make others feel comfortable.",
+      "trait": "Prosocial/Empathetic"
+    },
+    {
+      "id": 25,
+      "text": "I enjoy taking care of others and showing compassion.",
+      "trait": "Prosocial/Empathetic"
+    },
+    {
+      "id": 26,
+      "text": "I often make decisions based on how they will affect others.",
+      "trait": "Prosocial/Empathetic"
+    },
+    {
+      "id": 27,
+      "text": "I often find myself feeling responsible for other people’s emotions.",
+      "trait": "Prosocial/Empathetic"
+    },
+    {
+      "id": 28,
+      "text": "I am able to easily put myself in other people’s shoes.",
+      "trait": "Prosocial/Empathetic"
+    },
+    {
+      "id": 29,
+      "text": "I often give up my time to help people in need.",
+      "trait": "Prosocial/Empathetic"
+    },
+    {
+      "id": 30,
+      "text": "I find it easy to forgive others when they make mistakes.",
+      "trait": "Prosocial/Empathetic"
+    },
+    {
+      "id": 31,
+      "text": "I have a great deal of empathy for animals as well as people.",
+      "trait": "Prosocial/Empathetic"
+    },
+    {
+      "id": 32,
+      "text": "I am always thinking about how I can help others.",
+      "trait": "Prosocial/Empathetic"
+    },
+    {
+      "id": 33,
+      "text": "I enjoy exploring new ideas and concepts.",
+      "trait": "Curious/Energetic"
+    },
+    {
+      "id": 34,
+      "text": "I find it exciting to learn new things.",
+      "trait": "Curious/Energetic"
+    },
+    {
+      "id": 35,
+      "text": "I am interested in a wide variety of topics.",
+      "trait": "Curious/Energetic"
+    },
+    {
+      "id": 36,
+      "text": "I enjoy talking about new and innovative ideas.",
+      "trait": "Curious/Energetic"
+    },
+    {
+      "id": 37,
+      "text": "I am motivated by my curiosity and desire to learn.",
+      "trait": "Curious/Energetic"
+    },
+    {
+      "id": 38,
+      "text": "I prefer variety in my work and personal life.",
+      "trait": "Curious/Energetic"
+    },
+    {
+      "id": 39,
+      "text": "I avoid situations that might lead to embarrassment or failure.",
+      "trait": "Cautious/Social Norm Compliant"
+    },
+    {
+      "id": 40,
+      "text": "I tend to be careful when making decisions.",
+      "trait": "Cautious/Social Norm Compliant"
+    },
+    {
+      "id": 41,
+      "text": "I follow social conventions to avoid conflict.",
+      "trait": "Cautious/Social Norm Compliant"
+    },
+    {
+      "id": 42,
+      "text": "I try to follow traditions and established norms.",
+      "trait": "Cautious/Social Norm Compliant"
+    },
+    {
+      "id": 43,
+      "text": "I am uncomfortable when things are uncertain or unpredictable.",
+      "trait": "Cautious/Social Norm Compliant"
+    },
+    {
+      "id": 44,
+      "text": "I avoid conflict and confrontation whenever possible.",
+      "trait": "Cautious/Social Norm Compliant"
+    },
+    {
+      "id": 45,
+      "text": "I tend to be skeptical and like to question everything.",
+      "trait": "Analytical/Tough-minded"
+    },
+    {
+      "id": 46,
+      "text": "I enjoy working through complex issues to reach a solution.",
+      "trait": "Analytical/Tough-minded"
+    },
+    {
+      "id": 47,
+      "text": "I prefer making decisions based on logic rather than intuition.",
+      "trait": "Analytical/Tough-minded"
+    },
+    {
+      "id": 48,
+      "text": "I enjoy reading and learning about scientific topics.",
+      "trait": "Analytical/Tough-minded"
+    },
+    {
+      "id": 49,
+      "text": "I enjoy challenging myself by solving difficult problems.",
+      "trait": "Analytical/Tough-minded"
+    },
+    {
+      "id": 50,
+      "text": "I tend to analyze everything logically before acting.",
+      "trait": "Analytical/Tough-minded"
+    },
+    {
+      "id": 51,
+      "text": "I prefer situations where I can empathize with others.",
+      "trait": "Prosocial/Empathetic"
+    },
+    {
+      "id": 52,
+      "text": "I enjoy helping others feel understood and supported.",
+      "trait": "Prosocial/Empathetic"
+    },
+    {
+      "id": 53,
+      "text": "I like to comfort others when they are upset.",
+      "trait": "Prosocial/Empathetic"
+    },
+    {
+      "id": 54,
+      "text": "I am deeply moved when I see others in distress.",
+      "trait": "Prosocial/Empathetic"
+    },
+    {
+      "id": 55,
+      "text": "I am sensitive to the emotional states of others.",
+      "trait": "Prosocial/Empathetic"
+    },
+    {
+      "id": 56,
+      "text": "I am always looking for ways to help those around me.",
+      "trait": "Prosocial/Empathetic"
+    }
+  ],
+  "scoring_and_interpretation": {
+    "scoring_method": "Each question is scored from 1 (Strongly Disagree) to 4 (Strongly Agree). Scores for items belonging to the same trait are summed. All items are positively keyed for their respective traits (higher score on an item means higher endorsement of the trait).",
+    "trait_dimensions": [
+      {
+        "name": "Curious/Energetic",
+        "neurotransmitter_association": "Dopamine system",
+        "description": "Measures novelty-seeking, risk-taking, optimism, energy, spontaneity, creativity, and intellectual curiosity.",
+        "high_score_interpretation": "Highly open to new experiences, energetic, enthusiastic, creative, and independent. Enjoys change and may get bored easily with routine.",
+        "low_score_interpretation": "Prefers routine and familiarity, avoids risks, less spontaneous, and may be more conservative in approach."
+      },
+      {
+        "name": "Cautious/Social Norm Compliant",
+        "neurotransmitter_association": "Serotonin system",
+        "description": "Measures adherence to traditions, rule-following, social conformity, conscientiousness, orderliness, responsibility, and calmness.",
+        "high_score_interpretation": "Values tradition and rules, adheres to social norms, is organized, meticulous, and responsible. Tends to be calm and patient.",
+        "low_score_interpretation": "Less bound by rules, may be more spontaneous and disorganized, exhibits a more relaxed attitude towards social norms."
+      },
+      {
+        "name": "Analytical/Tough-minded",
+        "neurotransmitter_association": "Testosterone system",
+        "description": "Measures analytical thinking, critical approach, logical focus, competitiveness, decisiveness, emotional detachment, and direct communication.",
+        "high_score_interpretation": "Logical and analytical, thinks critically, competitive, and enjoys debates. Decisive and maintains emotional control.",
+        "low_score_interpretation": "Less competitive, may make more intuitive or emotional decisions, might avoid confrontation."
+      },
+      {
+        "name": "Prosocial/Empathetic",
+        "neurotransmitter_association": "Estrogen/Oxytocin system",
+        "description": "Measures empathy, cooperation, compassion, social harmony, emotional expression, intuition, and sensitivity to others.",
+        "high_score_interpretation": "Empathetic, easily understands others' emotions, cooperative, helpful, and forms strong social bonds. Possesses high emotional intelligence.",
+        "low_score_interpretation": "May be more detached, less empathetic, might struggle with emotional expression."
+      }
+    ],
+    "overall_interpretation": "Individuals will have scores across all four dimensions, but typically one or two dimensions will be more dominant, indicating their primary temperament type. Fisher suggests combinations of these dimensions define four main 'temperament types': Explorer (high Curious/Energetic), Builder (high Cautious/Social Norm Compliant), Director (high Analytical/Tough-minded), and Negotiator (high Prosocial/Empathetic). Many individuals are a combination of two types (e.g., Explorer-Negotiator).",
+    "important_disclaimer": "This inventory is designed for self-exploration and understanding temperament, not for clinical diagnosis. Results should not be used as a substitute for professional psychological advice or diagnosis. For a comprehensive understanding of temperament and personality, consult with a qualified mental health professional."
+  }
+}

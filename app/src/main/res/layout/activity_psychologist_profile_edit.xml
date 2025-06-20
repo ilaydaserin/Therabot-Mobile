@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_night_in1"
+    android:fillViewport="true"
+    tools:context=".PsychologistProfileEdit">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_profile_edit_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create / Edit Psychologist Profile"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_on_dark_bg"
+            android:fontFamily="@font/comforta"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_profile_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/psikolog"
+            app:civ_border_width="3dp"
+            app:civ_border_color="@color/secondary_accent_green"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btn_upload_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload Image"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/primary_dark_blue"
+            android:textColor="@color/text_on_dark_bg"
+            android:fontFamily="@font/comforta"
+            app:cornerRadius="8dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email (Unique Identifier for your Listing)" android:layout_marginBottom="12dp"
+            android:textColorHint="@color/text_on_light_bg"
+            app:boxBackgroundColor="@color/neutral_light_gray"
+            app:boxStrokeColor="@color/secondary_accent_green"
+            app:hintTextColor="@color/secondary_accent_green"
+            app:boxCornerRadiusTopStart="12dp"
+            app:boxCornerRadiusTopEnd="12dp"
+            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusBottomEnd="12dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/text_on_light_bg"
+                android:fontFamily="@font/comforta"
+                android:minHeight="48dp" android:paddingTop="16dp" android:paddingBottom="16dp"/> </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name" android:layout_marginBottom="12dp"
+            android:textColorHint="@color/text_on_light_bg"
+            app:boxBackgroundColor="@color/neutral_light_gray"
+            app:boxStrokeColor="@color/secondary_accent_green"
+            app:hintTextColor="@color/secondary_accent_green"
+            app:boxCornerRadiusTopStart="12dp"
+            app:boxCornerRadiusTopEnd="12dp"
+            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusBottomEnd="12dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:textColor="@color/text_on_light_bg"
+                android:fontFamily="@font/comforta"
+                android:minHeight="48dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Specialty (e.g., Clinical Psychologist)" android:layout_marginBottom="12dp"
+            android:textColorHint="@color/text_on_light_bg"
+            app:boxBackgroundColor="@color/neutral_light_gray"
+            app:boxStrokeColor="@color/secondary_accent_green"
+            app:hintTextColor="@color/secondary_accent_green"
+            app:boxCornerRadiusTopStart="12dp"
+            app:boxCornerRadiusTopEnd="12dp"
+            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusBottomEnd="12dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_specialty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="@color/text_on_light_bg"
+                android:fontFamily="@font/comforta"
+                android:minHeight="48dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Short Biography (Max. 150 characters)" android:layout_marginBottom="12dp"
+            android:textColorHint="@color/text_on_light_bg"
+            app:boxBackgroundColor="@color/neutral_light_gray"
+            app:boxStrokeColor="@color/secondary_accent_green"
+            app:hintTextColor="@color/secondary_accent_green"
+            app:boxCornerRadiusTopStart="12dp"
+            app:boxCornerRadiusTopEnd="12dp"
+            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusBottomEnd="12dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_short_bio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:maxLength="150"
+                android:textColor="@color/text_on_light_bg"
+                android:fontFamily="@font/comforta"
+                android:minHeight="48dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Biography" android:layout_marginBottom="12dp"
+            android:textColorHint="@color/text_on_light_bg"
+            app:boxBackgroundColor="@color/neutral_light_gray"
+            app:boxStrokeColor="@color/secondary_accent_green"
+            app:hintTextColor="@color/secondary_accent_green"
+            app:boxCornerRadiusTopStart="12dp"
+            app:boxCornerRadiusTopEnd="12dp"
+            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusBottomEnd="12dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_full_bio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:lines="5"
+                android:gravity="top"
+                android:textColor="@color/text_on_light_bg"
+                android:fontFamily="@font/comforta"
+                android:minHeight="120dp" android:paddingTop="16dp"
+                android:paddingBottom="16dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact Information (Phone, other email, address etc.)" android:layout_marginBottom="12dp"
+            android:textColorHint="@color/text_on_light_bg"
+            app:boxBackgroundColor="@color/neutral_light_gray"
+            app:boxStrokeColor="@color/secondary_accent_green"
+            app:hintTextColor="@color/secondary_accent_green"
+            app:boxCornerRadiusTopStart="12dp"
+            app:boxCornerRadiusTopEnd="12dp"
+            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusBottomEnd="12dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_contact_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:textColor="@color/text_on_light_bg"
+                android:fontFamily="@font/comforta"
+                android:minHeight="48dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Working Hours (e.g., Mon-Fri 09:00-17:00)" android:layout_marginBottom="12dp"
+            android:textColorHint="@color/text_on_light_bg"
+            app:boxBackgroundColor="@color/neutral_light_gray"
+            app:boxStrokeColor="@color/secondary_accent_green"
+            app:hintTextColor="@color/secondary_accent_green"
+            app:boxCornerRadiusTopStart="12dp"
+            app:boxCornerRadiusTopEnd="12dp"
+            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusBottomEnd="12dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_working_hours"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="@color/text_on_light_bg"
+                android:fontFamily="@font/comforta"
+                android:minHeight="48dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Expertise Areas (Comma separated: Depression, Anxiety)" android:layout_marginBottom="12dp"
+            android:textColorHint="@color/text_on_light_bg"
+            app:boxBackgroundColor="@color/neutral_light_gray"
+            app:boxStrokeColor="@color/secondary_accent_green"
+            app:hintTextColor="@color/secondary_accent_green"
+            app:boxCornerRadiusTopStart="12dp"
+            app:boxCornerRadiusTopEnd="12dp"
+            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusBottomEnd="12dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_expertise_areas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:textColor="@color/text_on_light_bg"
+                android:fontFamily="@font/comforta"
+                android:minHeight="48dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload Verification Documents"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_on_dark_bg"
+            android:fontFamily="@font/comforta"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+            <Button
+                android:id="@+id/btn_upload_diploma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Diploma"
+                android:backgroundTint="@color/primary_dark_blue"
+                android:textColor="@color/text_on_dark_bg"
+                android:fontFamily="@font/comforta"
+                app:cornerRadius="8dp"/>
+            <TextView
+                android:id="@+id/tv_diploma_status"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:text="No file selected"
+                android:textColor="@color/text_on_dark_bg"
+                android:singleLine="true"
+                android:ellipsize="middle"
+                android:fontFamily="@font/comforta"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+            <Button
+                android:id="@+id/btn_upload_identity_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Identity Card"
+                android:backgroundTint="@color/primary_dark_blue"
+                android:textColor="@color/text_on_dark_bg"
+                android:fontFamily="@font/comforta"
+                app:cornerRadius="8dp"/>
+            <TextView
+                android:id="@+id/tv_identity_card_status"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:text="No file selected"
+                android:textColor="@color/text_on_dark_bg"
+                android:singleLine="true"
+                android:ellipsize="middle"
+                android:fontFamily="@font/comforta"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_save_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save / Update Listing"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/sunrise_peach"
+            android:textColor="@color/text_on_dark_bg"
+            android:fontFamily="@font/comforta"
+            app:cornerRadius="8dp"/>
+
+        <Button
+            android:id="@+id/btn_delete_listing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Listing"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#E57373"
+            android:textColor="@color/text_on_dark_bg"
+            android:fontFamily="@font/comforta"
+            app:cornerRadius="8dp"/>
+
+        <ProgressBar
+            android:id="@+id/profile_edit_progress_bar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

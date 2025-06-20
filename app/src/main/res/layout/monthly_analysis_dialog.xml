@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:id="@+id/chartContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/veryHappyText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Dtext_primary"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/happyText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Dtext_primary"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/neutralText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Dtext_primary"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/sadText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Dtext_primary"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/verySadText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Dtext_primary"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/summaryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/Dtext_primary"
+        android:textSize="14sp" />
+
+</LinearLayout>

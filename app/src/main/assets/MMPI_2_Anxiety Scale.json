@@ -1,0 +1,334 @@
+{
+  "test": "MMPI-2 Anxiety Scale (Sample)",
+  "version": "50-item",
+  "scale": "T=True, F=False",
+  "questions": [
+    {
+      "id": 1,
+      "text": "I do not tire quickly.",
+      "trait": "Anxiety",
+      "reverse": true
+    },
+    {
+      "id": 2,
+      "text": "I am troubled by attacks of nausea.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 3,
+      "text": "I believe I am no more nervous than most others.",
+      "trait": "Anxiety",
+      "reverse": true
+    },
+    {
+      "id": 4,
+      "text": "I have very few headaches.",
+      "trait": "Anxiety",
+      "reverse": true
+    },
+    {
+      "id": 5,
+      "text": "I work under a great deal of tension.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 6,
+      "text": "I cannot keep my mind on one thing.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 7,
+      "text": "I worry over money and business.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 8,
+      "text": "I frequently notice my hand shakes when I try to do something.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 9,
+      "text": "I blush no more often than others.",
+      "trait": "Anxiety",
+      "reverse": true
+    },
+    {
+      "id": 10,
+      "text": "I have diarrhea once a month or more.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 11,
+      "text": "I worry quite a bit over possible misfortunes.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 12,
+      "text": "I practically never blush.",
+      "trait": "Anxiety",
+      "reverse": true
+    },
+    {
+      "id": 13,
+      "text": "I am often afraid that I am going to blush.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 14,
+      "text": "I have nightmares every few nights.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 15,
+      "text": "My hands and feet are usually warm.",
+      "trait": "Anxiety",
+      "reverse": true
+    },
+    {
+      "id": 16,
+      "text": "I sweat very easily even on cool days.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 17,
+      "text": "Sometimes when embarrassed, I break out in a sweat.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 18,
+      "text": "I hardly ever notice my heart pounding and I am seldom short of breath.",
+      "trait": "Anxiety",
+      "reverse": true
+    },
+    {
+      "id": 19,
+      "text": "I feel hungry almost all the time.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 20,
+      "text": "I am very seldom troubled by constipation.",
+      "trait": "Anxiety",
+      "reverse": true
+    },
+    {
+      "id": 21,
+      "text": "I have a great deal of stomach trouble.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 22,
+      "text": "I have had periods in which I lost sleep over worry.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 23,
+      "text": "My sleep is fitful and disturbed.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 24,
+      "text": "I dream frequently about things that are best kept to myself.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 25,
+      "text": "I am easily embarrassed.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 26,
+      "text": "I am more sensitive than most other people.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 27,
+      "text": "I frequently find myself worrying about something.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 28,
+      "text": "I wish I could be as happy as others seem to be.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 29,
+      "text": "I am usually calm and not easily upset.",
+      "trait": "Anxiety",
+      "reverse": true
+    },
+    {
+      "id": 30,
+      "text": "I cry easily.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 31,
+      "text": "I feel anxiety about something or someone almost all the time.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 32,
+      "text": "I am happy most of the time.",
+      "trait": "Anxiety",
+      "reverse": true
+    },
+    {
+      "id": 33,
+      "text": "It makes me nervous to have to wait.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 34,
+      "text": "I have periods of such great restlessness that I cannot sit long I a chair.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 35,
+      "text": "Sometimes I become so excited that I find it hard to get to sleep.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 36,
+      "text": "I have sometimes felt that difficulties were piling up so high that I could not overcome them.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 37,
+      "text": "I must admit that I have at times been worried beyond reason over something that really did not matter.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 38,
+      "text": "I have very few fears compared to my friends.",
+      "trait": "Anxiety",
+      "reverse": true
+    },
+    {
+      "id": 39,
+      "text": "I have been afraid of things or people that I know could not hurt me.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 40,
+      "text": "I certainly feel useless at times.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 41,
+      "text": "I find it hard to keep my mind on a task or job.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 42,
+      "text": "I am usually self-conscious.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 43,
+      "text": "I am inclined to take things hard.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 44,
+      "text": "I am a high-strung person.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 45,
+      "text": "Life is a strain for me much of the time.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 46,
+      "text": "At times I think I am no good at all.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 47,
+      "text": "I am certainly lacking in self-confidence.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 48,
+      "text": "I sometimes feel that I am about to go to pieces.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 49,
+      "text": "I shrink from facing crisis or difficulty.",
+      "trait": "Anxiety",
+      "reverse": false
+    },
+    {
+      "id": 50,
+      "text": "I am entirely self-confident.",
+      "trait": "Anxiety",
+      "reverse": true
+    }
+  ],
+  "options": [
+    "True",
+    "False"
+  ],
+  "scores": [1, 0],
+  "results": {
+    "title": "Anxiety Score Interpretation",
+    "score_description": [
+      {
+        "range": "0-10",
+        "text": "Your score indicates very low levels of anxiety. You likely feel calm, relaxed, and not easily bothered by daily stressors. This is a healthy score, suggesting good emotional regulation."
+      },
+      {
+        "range": "11-25",
+        "text": "Your score suggests mild to moderate levels of anxiety. You might experience occasional worrying, nervousness, or some physical symptoms of anxiety. These feelings are often manageable, but paying attention to stress levels and practicing coping strategies could be beneficial."
+      },
+      {
+        "range": "26-40",
+        "text": "Your score indicates moderate to high levels of anxiety. You may frequently experience significant worry, physical symptoms like restlessness or difficulty concentrating, and feelings of being overwhelmed. It could be helpful to explore stress management techniques or consider speaking with a mental health professional."
+      },
+      {
+        "range": "41-50",
+        "text": "Your score points to high to severe levels of anxiety. You are likely experiencing intense and persistent feelings of nervousness, worry, and physical discomfort that significantly interfere with daily life. It is highly recommended to seek support from a qualified mental health professional to discuss these feelings and explore treatment options."
+      }
+    ],
+    "disclaimer": "This test is for informational purposes only and is not a substitute for professional psychological evaluation or diagnosis. If you are concerned about your mental health, please consult a qualified mental health professional."
+  }
+}

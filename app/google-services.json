@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "632918320355",
+    "project_id": "therabot-3cbbf",
+    "storage_bucket": "therabot-3cbbf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632918320355:android:54dbf602fbebb1055051d6",
+        "android_client_info": {
+          "package_name": "com.ilaydas.therabotmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632918320355-n8rv9m1qhmhb6mbrncrq58a729r0sviv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ilaydas.therabotmobile",
+            "certificate_hash": "af513f1ca91a5966539c45e28116365470b97f23"
+          }
+        },
+        {
+          "client_id": "632918320355-ukrb7avoh13657sli5gk54lde05uah7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD58wJendAIWTa84p52cS-f6dsexkE4xRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632918320355-ukrb7avoh13657sli5gk54lde05uah7e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

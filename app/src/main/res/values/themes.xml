@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Temanın ana iskeleti -->
+    <style name="Base.Theme.TherabotMobile" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Genel yazı tipi ayarı -->
+
+
+        <!-- İsteğe bağlı: Renk özelleştirmeleri -->
+        <!--
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        -->
+    </style>
+
+    <style name="Theme.TherabotMobile" parent="Base.Theme.TherabotMobile" />
+</resources>

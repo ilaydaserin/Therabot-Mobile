@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="rb_padding_horizontal">24dp</dimen>
+    <dimen name="rb_padding_vertical">18dp</dimen>
+    <dimen name="rb_drawable_padding">18dp</dimen>
+    <dimen name="rb_margin_bottom">14dp</dimen>
+</resources>

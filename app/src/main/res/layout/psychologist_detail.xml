@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_night_in1"
+    tools:context=".PsychologistDetail">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="16dp" android:paddingHorizontal="12dp" >
+            <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp" app:cardCornerRadius="12dp" app:cardElevation="6dp" app:cardBackgroundColor="@android:color/white">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp" android:paddingTop="20dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/detail_psychologist_image"
+                android:layout_width="100dp" android:layout_height="100dp" android:src="@drawable/mood1"
+                app:civ_border_width="2dp" app:civ_border_color="@color/secondary_accent_green"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+                <TextView
+                    android:id="@+id/detail_psychologist_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Assoc. Prof. Ayşe Yılmaz"
+                    android:textColor="@color/primary_dark_blue"
+                    android:textSize="22sp" android:textStyle="bold"
+                    android:fontFamily="@font/comforta"
+                    app:layout_constraintTop_toBottomOf="@id/detail_psychologist_image"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"/>
+
+                <TextView
+                    android:id="@+id/detail_psychologist_specialty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Clinical Psychologist, Adult Therapist"
+                    android:textColor="@color/text_on_light_bg"
+                    android:textSize="14sp" android:fontFamily="@font/comforta"
+                    app:layout_constraintTop_toBottomOf="@id/detail_psychologist_name"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp" app:cardCornerRadius="12dp" app:cardElevation="3dp" app:cardBackgroundColor="@android:color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About"
+                    android:textColor="@color/soft_peach"
+                    android:textSize="18sp" android:textStyle="bold"
+                    android:fontFamily="@font/comforta"
+                    android:layout_marginBottom="6dp"/>
+                    <TextView
+                    android:id="@+id/detail_psychologist_full_bio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Detailed biography of the psychologist will be displayed here, including education, treatment approaches, and areas of expertise. She specializes in Cognitive Behavioral Therapy (CBT) and Schema Therapy, offering individual and couple therapy for children, adolescents, and adults."
+                    android:textColor="@color/text_on_light_bg"
+                    android:textSize="14sp" android:lineSpacingExtra="3dp" android:fontFamily="@font/comforta"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp" app:cardCornerRadius="12dp" app:cardElevation="3dp" app:cardBackgroundColor="@android:color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Areas of Expertise"
+                    android:textColor="@color/soft_peach"
+                    android:textSize="18sp" android:textStyle="bold"
+                    android:fontFamily="@font/comforta"
+                    android:layout_marginBottom="6dp"/> <TextView
+                    android:id="@+id/detail_psychologist_expertise_areas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Depression, Anxiety Disorders, Panic Attacks, Relationship Issues, Post-Traumatic Stress Disorder"
+                    android:textColor="@color/text_on_light_bg"
+                    android:textSize="14sp" android:lineSpacingExtra="3dp" android:fontFamily="@font/comforta"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp" android:layout_marginBottom="16dp"
+                app:cardCornerRadius="12dp" app:cardElevation="3dp" app:cardBackgroundColor="@android:color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp"> <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Information"
+                    android:textColor="@color/soft_peach"
+                    android:textSize="18sp" android:textStyle="bold"
+                    android:fontFamily="@font/comforta"
+                    android:layout_marginBottom="6dp"/> <TextView
+                    android:id="@+id/detail_psychologist_contact_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Phone: +90 5xx xxx xx xx\nEmail: ayse.yilmaz@example.com"
+                    android:textColor="@color/text_on_light_bg"
+                    android:textSize="14sp" android:lineSpacingExtra="3dp" android:autoLink="phone|email"
+                    android:fontFamily="@font/comforta"/>
+
+                    <TextView
+                        android:id="@+id/detail_psychologist_working_hours"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Working Hours: Monday - Friday, 09:00 - 18:00"
+                        android:textColor="@color/text_on_light_bg"
+                        android:textSize="14sp" android:lineSpacingExtra="3dp" android:fontFamily="@font/comforta"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/detail_loading_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
